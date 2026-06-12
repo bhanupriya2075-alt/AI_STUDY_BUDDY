@@ -6,10 +6,10 @@ from database import (
     clear_history
 )
 
-from explain import explain_topic
-from summarize import summarize_notes
-from quiz import generate_quiz
-from flashcards import generate_flashcards
+from modules.explain import explain_topic
+from modules.summarize import summarize_notes
+from modules.quiz import generate_quiz
+from modules.flashcards import generate_flashcards
 
 st.set_page_config(
     page_title="AI Study Buddy",
